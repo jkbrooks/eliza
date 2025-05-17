@@ -1,0 +1,65 @@
+{
+  "name": "@elizaos/plugin-weather-agent",
+  "description": "Weather Data Agent with Fetch.ai integration for elizaOS",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "keywords": [
+    "plugin",
+    "elizaos",
+    "weather",
+    "fetch.ai",
+    "mcp",
+    "agent"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/elizaOS/eliza"
+  },
+  "exports": {
+    "./package.json": "./package.json",
+    ".": {
+      "import": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.js"
+      }
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "dependencies": {
+    "@elizaos/cli": "^1.0.0-beta.41",
+    "@elizaos/core": "^1.0.0-beta.41",
+    "axios": "^1.6.0",
+    "zod": "3.24.1"
+  },
+  "devDependencies": {
+    "express": "^4.18.2",
+    "supertest": "^6.3.3",
+    "tsup": "8.4.0",
+    "typescript": "5.8.2",
+    "prettier": "3.5.3",
+    "vitest": "^1.0.0"
+  },
+  "scripts": {
+    "start": "elizaos start",
+    "test-with-cli": "cd ../cli && bun run build && cd ../plugin-weather-agent && elizaos test",
+    "dev": "elizaos dev",
+    "build": "tsup",
+    "lint": "prettier --write ./src",
+    "test": "vitest run",
+    "publish": "elizaos publish",
+    "format": "prettier --write ./src",
+    "format:check": "prettier --check ./src"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "resolutions": {
+    "zod": "3.24.1"
+  }
+}
