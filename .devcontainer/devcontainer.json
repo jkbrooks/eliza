@@ -14,9 +14,9 @@
     "-p=5173:5173", // Add port for client
     //"--volume=/usr/lib/wsl:/usr/lib/wsl", // uncomment for WSL
     //"--volume=/mnt/wslg:/mnt/wslg", // uncomment for WSL
-    "--gpus=all", // ! uncomment for vGPU
+    //"--gpus=all", // ! uncomment for vGPU (disabled for Codespaces compatibility)
     //"--device=/dev/dxg", // uncomment this for vGPU under WSL
-    "--device=/dev/dri"
+    //"--device=/dev/dri" // disabled for Codespaces compatibility
   ],
   "containerEnv": {
     //"MESA_D3D12_DEFAULT_ADAPTER_NAME": "NVIDIA", // uncomment for WSL
