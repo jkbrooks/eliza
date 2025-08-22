@@ -1,3 +1,9 @@
 [submodule ".cursor"]
 	path = .cursor
 	url = https://github.com/elizaOS/.cursor
+[submodule "docs/proposals/competitive-analysis/fetchai-uAgents"]
+	path = docs/proposals/competitive-analysis/fetchai-uAgents
+	url = https://github.com/fetchai/uAgents.git
+[submodule "docs/proposals/competitive-analysis/olas-open-autonomy"]
+	path = docs/proposals/competitive-analysis/olas-open-autonomy
+	url = https://github.com/valory-xyz/open-autonomy.git
