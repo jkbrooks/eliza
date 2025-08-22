@@ -301,7 +301,7 @@ workflow.add_conditional_edges(
 
 ### Right Side: Python-Native Implementation
 
-**Two Potential Approaches (Requires More Buy-in):**
+**Two Potential Approaches (Requires More Analysis and Feedback):**
 
 **Option A: ElizaOS from Scratch in Python**
 - Reimplement ElizaOS architecture natively in Python
@@ -317,37 +317,6 @@ workflow.add_conditional_edges(
 
 **Strategic Considerations:**
 Both approaches would create a Python-native pathway for developers to access ElizaOS's social AI capabilities while leveraging Python's analytical strengths. The choice between approaches would depend on team preferences, available resources, and desired level of architectural control.
-
-**Note on Development Strategy:**
-The Python-native implementation would require significant buy-in and represents a separate strategic initiative. Multiple framework options and architectural approaches remain open for evaluation based on community needs and team direction.
-
----
-
-## 5. Implementation Approach
-
-### Immediate Focus: Python Sidekick Plugin
-
-The primary recommendation is to develop a robust Python sidekick plugin that provides substantial value:
-- Multiple Python framework support (LangChain, CrewAI, AutoGen)
-- Rich tool ecosystem (web search, data analysis, code execution, benchmark testing)
-- Clear performance improvements and community adoption
-- Foundation for evaluating further Python integration
-
-### Future Consideration: Python-Native Implementation
-
-The Python-native implementation represents a separate strategic initiative requiring more buy-in:
-
-**Option A: ElizaOS from Scratch in Python**
-- Reimplement ElizaOS architecture natively in Python
-- Maintain similar concepts but optimized for Python ecosystem
-- Full architectural control with significant development effort
-
-**Option B: ElizaOS Concepts within Existing Python Framework**
-- Use mature Python framework as foundation (LangChain/LangGraph, CrewAI, AutoGen, etc.)
-- Import ElizaOS's social AI concepts and adapt architecture to Pythonic patterns
-- Leverage existing ecosystem capabilities rather than rebuilding
-
-Both approaches remain open for evaluation based on community response to the sidekick implementation and available resources for larger strategic initiatives.
 
 ---
 
@@ -371,6 +340,3 @@ ElizaOS has established unique strengths in social AI, context engineering, and 
 
 This dual ecosystem strategy provides multiple paths to success while respecting existing team preferences and development efforts. Rather than replacing current approaches, it expands ElizaOS's reach and capabilities through strategic ecosystem participation.
 
----
-
-*This proposal represents a strategic opportunity to enhance ElizaOS's capabilities while maintaining its core strengths. The phased approach ensures that investment scales with demonstrated success, providing a clear path to both immediate improvements and long-term competitive advantage.*
