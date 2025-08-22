@@ -7,3 +7,12 @@
 [submodule "docs/proposals/competitive-analysis/olas-open-autonomy"]
 	path = docs/proposals/competitive-analysis/olas-open-autonomy
 	url = https://github.com/valory-xyz/open-autonomy.git
+[submodule "docs/proposals/competitive-analysis/virtuals-protocol-python"]
+	path = docs/proposals/competitive-analysis/virtuals-protocol-python
+	url = https://github.com/Virtual-Protocol/virtuals-python.git
+[submodule "docs/proposals/competitive-analysis/coral-protocol-server"]
+	path = docs/proposals/competitive-analysis/coral-protocol-server
+	url = https://github.com/Coral-Protocol/coral-server.git
+[submodule "docs/proposals/competitive-analysis/gaianet-node"]
+	path = docs/proposals/competitive-analysis/gaianet-node
+	url = https://github.com/GaiaNet-AI/gaianet-node.git
